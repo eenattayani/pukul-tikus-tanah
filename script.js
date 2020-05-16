@@ -31,6 +31,10 @@ function mulai() {
     munculkanTikus();
     setTimeout(() => {
         selesai = true;
+        setTimeout(() => {
+            alert(`Permainan Selesai!
+            skor anda: ${skor}`);
+        }, 1000);
     }, 10000);
 }
 
